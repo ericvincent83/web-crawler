@@ -25,6 +25,7 @@ This will crawl "https://wiprodigital.com" with a depth of 2 by default
 - The application does not handle relative paths very well 
 - The application does not handle links to sub domains (they'll be identified as external links and won't be crawled)
 - I could sanitise the user input a bit better
+- No validation/check on the html parsing (if the tag I am looking for do not contain the src or href property it won't work very well)
 
 ## Improvements
 - Solve the above limitations
